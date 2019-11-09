@@ -6,6 +6,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
+    @songs << self.song.new
   end
  
   def add_song(song)
