@@ -16,6 +16,7 @@ class Artist
   
   def song(name)
     @songs << name
+  end
  
   def songs
     @songs
