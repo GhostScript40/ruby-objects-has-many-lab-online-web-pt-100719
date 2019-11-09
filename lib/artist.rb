@@ -6,7 +6,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    sef.add_song
+    self.add_song
   end
  
   def add_song(song)
